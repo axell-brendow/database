@@ -1,2 +1,2 @@
 # database
-Repository for my Database discipline
+Repository for the discipline of Database
