@@ -1,0 +1,264 @@
+
+NOME: AXELL BRENDOW BATISTA MOREIRA
+MATRÍCULA: 631822
+
+Como usei o MySQL no PowerShell, achei desnecessário colocar os prints já que
+posso copiar a saída do MySQL como texto e colar aqui. Então não colocarei imagens,
+mas sim as próprias tabelas em texto.
+
+
+RESULTADOS:
+
+
+QUESTÃO 03:
+
++----------+-----------+-----------------------+------------------------+
+| TITULO   | ANOPUBLIC | COUNT(EX.CODEXEMPLAR) | AVG(EX.VALORAQUISICAO) |
++----------+-----------+-----------------------+------------------------+
+| TITULO01 |      2019 |                     3 |      3.199999968210856 |
+| TITULO02 |      2019 |                     3 |      6.199999809265137 |
+| TITULO03 |      2019 |                     3 |      9.199999809265137 |
+| TITULO04 |      2019 |                     3 |     12.199999809265137 |
+| TITULO05 |      2019 |                     3 |     15.200000127156576 |
+| TITULO06 |      2019 |                     3 |     18.200000762939453 |
+| TITULO07 |      2019 |                     3 |     21.200000762939453 |
+| TITULO08 |      2019 |                     3 |     24.200000762939453 |
+| TITULO09 |      2019 |                     3 |     27.200000762939453 |
+| TITULO10 |      2019 |                     3 |     30.200000762939453 |
+| TITULO11 |      2019 |                     3 |      33.20000076293945 |
++----------+-----------+-----------------------+------------------------+
+11 rows in set (0.00 sec)
+
+
+QUESTÃO 04:
+
++----------+-------------+--------+
+| TITULO   | DATAEMPREST | MULTA  |
++----------+-------------+--------+
+| TITULO01 | 2019-02-15  |   97.5 |
+| TITULO01 | 2019-02-22  | 100.75 |
+| TITULO01 | 2019-03-01  |    104 |
+| TITULO02 | 2019-03-08  | 107.25 |
+| TITULO02 | 2019-03-15  |  110.5 |
+| TITULO02 | 2019-03-22  | 113.75 |
+| TITULO03 | 2019-03-29  |    117 |
+| TITULO03 | 2019-04-05  | 120.25 |
+| TITULO03 | 2019-04-12  |  123.5 |
+| TITULO04 | 2019-04-19  | 126.75 |
+| TITULO04 | 2019-04-26  |    130 |
+| TITULO04 | 2019-05-03  | 133.25 |
+| TITULO05 | 2019-05-10  |  136.5 |
+| TITULO05 | 2019-05-17  | 139.75 |
+| TITULO05 | 2019-05-24  |    143 |
+| TITULO06 | 2019-05-31  | 146.25 |
+| TITULO06 | 2019-06-07  |  149.5 |
+| TITULO06 | 2019-06-14  | 152.75 |
+| TITULO07 | 2019-06-21  |    156 |
+| TITULO07 | 2019-06-28  | 159.25 |
+| TITULO07 | 2019-07-05  |  162.5 |
+| TITULO08 | 2019-07-12  | 165.75 |
+| TITULO08 | 2019-09-13  |    195 |
+| TITULO08 | 2019-11-15  | 224.25 |
+| TITULO08 | 2020-01-17  |  253.5 |
+| TITULO08 | 2020-03-20  | 282.75 |
+| TITULO08 | 2019-07-19  |    169 |
+| TITULO08 | 2019-09-20  | 198.25 |
+| TITULO08 | 2019-11-22  |  227.5 |
+| TITULO08 | 2020-01-24  | 256.75 |
+| TITULO08 | 2020-03-27  |    286 |
+| TITULO08 | 2019-07-26  | 172.25 |
+| TITULO08 | 2019-09-27  |  201.5 |
+| TITULO08 | 2019-11-29  | 230.75 |
+| TITULO08 | 2020-01-31  |    260 |
+| TITULO08 | 2020-04-03  | 289.25 |
+| TITULO09 | 2019-08-02  |  175.5 |
+| TITULO09 | 2019-10-04  | 204.75 |
+| TITULO09 | 2019-12-06  |    234 |
+| TITULO09 | 2020-02-07  | 263.25 |
+| TITULO09 | 2020-04-10  |  292.5 |
+| TITULO09 | 2019-08-09  | 178.75 |
+| TITULO09 | 2019-10-11  |    208 |
+| TITULO09 | 2019-12-13  | 237.25 |
+| TITULO09 | 2020-02-14  |  266.5 |
+| TITULO09 | 2020-04-17  | 295.75 |
+| TITULO09 | 2019-08-16  |    182 |
+| TITULO09 | 2019-10-18  | 211.25 |
+| TITULO09 | 2019-12-20  |  240.5 |
+| TITULO09 | 2020-02-21  | 269.75 |
+| TITULO09 | 2020-04-24  |    299 |
+| TITULO10 | 2019-08-23  | 185.25 |
+| TITULO10 | 2019-10-25  |  214.5 |
+| TITULO10 | 2019-12-27  | 243.75 |
+| TITULO10 | 2020-02-28  |    273 |
+| TITULO10 | 2020-05-01  | 302.25 |
+| TITULO10 | 2019-08-30  |  188.5 |
+| TITULO10 | 2019-11-01  | 217.75 |
+| TITULO10 | 2020-01-03  |    247 |
+| TITULO10 | 2020-03-06  | 276.25 |
+| TITULO10 | 2020-05-08  |  305.5 |
+| TITULO10 | 2019-09-06  | 191.75 |
+| TITULO10 | 2019-11-08  |    221 |
+| TITULO10 | 2020-01-10  | 250.25 |
+| TITULO10 | 2020-03-13  |  279.5 |
+| TITULO10 | 2020-05-15  | 308.75 |
++----------+-------------+--------+
+66 rows in set (0.00 sec)
+
+
+QUESTÃO 05:
+
++--------+-----------+------------+------------------+
+| CODIGO | NOME      | DATANASC   | CIDADE           |
++--------+-----------+------------+------------------+
+|      4 | Marquinho | 1983-04-11 | Porto Alegre     |
+|      5 | Fabiano   | 1988-08-31 | Po├ºos de Caldas |
++--------+-----------+------------+------------------+
+2 rows in set (0.00 sec)
+
+
+QUESTÃO 06:
+
++--------------------+-------------+
+| NOME               | NUM_EMPREST |
++--------------------+-------------+
+| Amanda Rhodes      |          30 |
+| Bernardo Valadares |          66 |
+| Ellen Simili       |          66 |
+| Marquinho          |           0 |
+| Fabiano            |           0 |
++--------------------+-------------+
+5 rows in set (0.00 sec)
+
+
+QUESTÃO 07:
+
++------------------+
+| NOMEAUT          |
++------------------+
+| MACHADO DE ASSIS |
+| NAVATHE          |
+| ELMASRI          |
++------------------+
+3 rows in set (0.00 sec)
+
+
+QUESTÃO 08:
+
++--------------------+
+| NOME               |
++--------------------+
+| Amanda Rhodes      |
+| Bernardo Valadares |
+| Ellen Simili       |
++--------------------+
+3 rows in set (0.00 sec)
+
+
+QUESTÃO 09:
+
++------------------+
+| NOMEAUT          |
++------------------+
+| MACHADO DE ASSIS |
+| ELMASRI          |
++------------------+
+2 rows in set (0.00 sec)
+
+
+QUESTÃO 10:
+
++------------------+
+| NOMEAUT          |
++------------------+
+| MACHADO DE ASSIS |
+| ELMASRI          |
++------------------+
+2 rows in set (0.00 sec)
+
+
+QUESTÃO 11:
+
++--------------------+---------------+
+| NOME               | AVG(IT.MULTA) |
++--------------------+---------------+
+| Bernardo Valadares |       203.125 |
+| Ellen Simili       |       417.625 |
++--------------------+---------------+
+2 rows in set (0.00 sec)
+
+
+QUESTÃO 12:
+
++--------------------+
+| NOME               |
++--------------------+
+| Bernardo Valadares |
+| Ellen Simili       |
++--------------------+
+2 rows in set (0.00 sec)
+
+
+QUESTÃO 13:
+
++----------+
+| NOMEEDIT |
++----------+
+| OHREALLY |
+| SARAIVA  |
++----------+
+2 rows in set (0.00 sec)
+
+
+QUESTÃO 14:
+
++----------+--------------------+
+| TITULO   | NOME               |
++----------+--------------------+
+| TITULO10 | Amanda Rhodes      |
+| TITULO10 | Bernardo Valadares |
+| TITULO08 | Bernardo Valadares |
+| TITULO08 | Bernardo Valadares |
+| TITULO08 | Bernardo Valadares |
+| TITULO10 | Ellen Simili       |
+| TITULO08 | Ellen Simili       |
+| TITULO08 | Ellen Simili       |
+| TITULO08 | Ellen Simili       |
++----------+--------------------+
+9 rows in set (0.00 sec)
+
+
+QUESTÃO 15:
+
++--------+----------+
+| CODIGO | TITULO   |
++--------+----------+
+|      8 | TITULO08 |
+|      9 | TITULO09 |
+|     10 | TITULO10 |
++--------+----------+
+3 rows in set (0.00 sec)
+
+
+QUESTÃO 16:
+
++----------+-------------+
+| TITULO   | CODEXEMPLAR |
++----------+-------------+
+| TITULO02 |           4 |
+| TITULO02 |           5 |
+| TITULO02 |           6 |
+| TITULO05 |          13 |
+| TITULO05 |          14 |
+| TITULO05 |          15 |
+| TITULO06 |          16 |
+| TITULO06 |          17 |
+| TITULO06 |          18 |
+| TITULO09 |          27 |
+| TITULO10 |          28 |
+| TITULO10 |          29 |
+| TITULO10 |          30 |
+| TITULO11 |          31 |
+| TITULO11 |          32 |
+| TITULO11 |          33 |
++----------+-------------+
+16 rows in set (0.00 sec)
