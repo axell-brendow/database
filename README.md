@@ -1,2 +1,2 @@
 # database
-Repository for the discipline of Database
+Repository for the discipline: Database
